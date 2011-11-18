@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "donald_duck"
+  s.name = %q{donald_duck}
   s.version = "0.0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Felipe Talavera"]
-  s.date = "2011-11-17"
-  s.description = "ducksboard wrapper"
-  s.email = "felipe@peertransfer.com"
+  s.date = %q{2011-11-19}
+  s.description = %q{ducksboard wrapper}
+  s.email = %q{felipe@peertransfer.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -24,20 +24,23 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
+    "donald_duck.gemspec",
     "lib/donald_duck.rb",
     "spec/donald_duck_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/flype/donald_duck"
+  s.homepage = %q{http://github.com/flype/donald_duck}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
-  s.summary = "ducksboard wrapper"
+  s.rubygems_version = %q{1.3.6}
+  s.summary = %q{ducksboard wrapper}
 
   if s.respond_to? :specification_version then
+    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activesupport>, [">= 2.3.5"])
       s.add_runtime_dependency(%q<httparty>, [">= 0"])
       s.add_runtime_dependency(%q<webmock>, [">= 0"])
