@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Felipe Talavera"]
   s.date = "2011-11-17"
-  s.description = "TODO: longer description of your gem"
+  s.description = "ducksboard wrapper"
   s.email = "felipe@peertransfer.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
