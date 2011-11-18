@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "donald_duck"
   gem.homepage = "http://github.com/flype/donald_duck"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{ducksboard wrapper}
+  gem.description = %Q{ducksboard wrapper}
   gem.email = "felipe@peertransfer.com"
   gem.authors = ["Felipe Talavera"]
   # dependencies defined in Gemfile
